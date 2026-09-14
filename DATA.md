@@ -1,6 +1,10 @@
 # BC-515 course data
 
-Re-running the notebooks requires the processed `BC_515_Section_1.h5ad` supplied for this course. The file is not included in the repository. Ask the instructor for the course copy; no verified public URL for this exact processed file is currently available in the project documentation.
+Re-running the notebooks requires the processed `BC_515_Section_1.h5ad` supplied for this course.
+
+**[Download BC_515_Section_1.h5ad](https://github.com/Elsa-bingxue/METMAP-SIGMA-Tutorials/releases/download/bc515-data-v1/BC_515_Section_1.h5ad)** (113,322,821 bytes; about 108 MiB).
+
+The file is hosted in the [BC-515 data release](https://github.com/Elsa-bingxue/METMAP-SIGMA-Tutorials/releases/tag/bc515-data-v1). It is not included in the repository ZIP or a Git clone, so download it separately.
 
 Place it at `data/BC_515_Section_1.h5ad`, or set the `BC515_DATA` environment variable to its path. Do not substitute a raw source-study file without reproducing the preprocessing and checking that the required fields match.
 
@@ -27,4 +31,4 @@ Run `python check_setup.py` to verify the file before training. A checksum misma
 
 The SIGMA reference-data documentation attributes BC-515 and BC-525 to Godfrey et al., *Angewandte Chemie International Edition* (2025), [doi:10.1002/anie.202502028](https://doi.org/10.1002/anie.202502028). The course file contains processed, matched spatial metabolomics and transcriptomics with annotations. The source-study citation does not itself supply a verified download link for this exact course file.
 
-Consult the source study for data access and reuse terms. The software licenses under `vendor/` do not license the dataset. The `data/` input files are ignored by Git; the instructor can distribute the course input separately through the course platform.
+Consult the source study for data access and reuse terms. The software licenses under `vendor/` do not license the dataset. The `data/` input files are ignored by Git; the processed course input is distributed as a GitHub Release asset.

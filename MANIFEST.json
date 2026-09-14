@@ -47,8 +47,8 @@
     },
     {
       "path": "DATA.md",
-      "bytes": 2062,
-      "sha256": "1f3070904a9ad1b5693eb4b6ee8edfdc9d88e997617b098389370ed63335a1b6"
+      "bytes": 2255,
+      "sha256": "ee49f9c18c91ab7f65c91dbfb1765bb4de52d30929ed6787453e5d4790bf6b11"
     },
     {
       "path": "ORIGINAL_PROTOCOL.md",
@@ -57,8 +57,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 7141,
-      "sha256": "38667d5f1301b25e6dc25fcf5fe7f8bb59b360a492ac0cfd6450f7e1b716735f"
+      "bytes": 7493,
+      "sha256": "9182d4a2b2848abd54e67fe986abec852f064bb4976237ae48db0d3477cd577f"
     },
     {
       "path": "SLIDE_NOTES.md",
@@ -72,8 +72,8 @@
     },
     {
       "path": "data/README.md",
-      "bytes": 110,
-      "sha256": "6e40cfb092832034225ee38fcd0d7dee950ae3d7e606e4c363da481fd3de991a"
+      "bytes": 442,
+      "sha256": "cb738e69b87d7ee47ead1df7dcf76b5a8d89394c6a85e48e87d0c8e6e500cd3d"
     },
     {
       "path": "execute_notebook.py",

@@ -31,15 +31,15 @@ python -m pip install -r requirements.txt
 
 Alternatively, create a virtual environment with an existing Python 3.11 installation. The scientific package versions in `requirements.txt` match the environment used for the saved results. JupyterLab supplies the notebook interface. The examples run on CPU; a GPU is not required.
 
-### 3. Place the course data
+### 3. Download the course data
 
-Obtain the processed `BC_515_Section_1.h5ad` file from the instructor and place it here:
+Download [BC_515_Section_1.h5ad](https://github.com/Elsa-bingxue/METMAP-SIGMA-Tutorials/releases/download/bc515-data-v1/BC_515_Section_1.h5ad) from the GitHub Release and place it here:
 
 ```text
 data/BC_515_Section_1.h5ad
 ```
 
-The data file is distributed separately. See [DATA.md](DATA.md) for its source, required contents, and SHA-256 checksum. A different file with a similar name may not contain the same preprocessing or annotations.
+The file is 113,322,821 bytes (about 108 MiB). The repository ZIP does not include this large data file; download it separately using the link above. See [DATA.md](DATA.md) for its source, required contents, and SHA-256 checksum. A different file with a similar name may not contain the same preprocessing or annotations.
 
 ### 4. Check the environment and start JupyterLab
 
@@ -88,7 +88,7 @@ MET-MAP retains its [BSD 3-Clause license](vendor/MET-MAP/LICENSE); SIGMA retain
 
 ## Troubleshooting
 
-- **Missing data:** follow `DATA.md`; downloading the repository does not download the AnnData file.
+- **Missing data:** download the AnnData file from the [BC-515 data release](https://github.com/Elsa-bingxue/METMAP-SIGMA-Tutorials/releases/tag/bc515-data-v1) and place it in `data/`. Downloading the repository ZIP does not download the data.
 - **Missing package:** activate the environment used for installation and start JupyterLab from that terminal.
 - **Wrong Python version:** these examples use Python 3.11. Create the environment above rather than installing into a system Python environment.
 - **Parity files not found:** run the counterpart notebook, then rerun the final comparison cell.
