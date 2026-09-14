@@ -1,0 +1,105 @@
+{
+  "source": "HBC_515/HBC_515_SIGMA.ipynb",
+  "source_notebook_sha256": "58cdc1c0d18eddcbeab4718fe9fc5748ae852b3f5ff7dc485d49c2400c4f45d4",
+  "input": "HBC_515/BC_515_Section_1.h5ad",
+  "input_sha256": "1f96d6f1aaa36c117ccd7fb94b172a1c1435585d54279e8cffb93df0299c7204",
+  "selected_cells": [
+    {
+      "cell_index_zero_based": 0,
+      "original_sha256": "3c901bf394135c67214d001fbe110d9ff8a17889cb54a474cdfe8ca7e25d75a0",
+      "executed_sha256": "3c901bf394135c67214d001fbe110d9ff8a17889cb54a474cdfe8ca7e25d75a0",
+      "changes": []
+    },
+    {
+      "cell_index_zero_based": 2,
+      "original_sha256": "e2d3f0423556c18f0dba88d098ba4ba0eaca3a1b6425d4cb84242c5cb166b20f",
+      "executed_sha256": "ccd9bf024d8a536ae2c75c3f96894a4e04aea8601e79d6a4299728bd5cfca5b2",
+      "changes": [
+        "Read the same input using an absolute path."
+      ]
+    },
+    {
+      "cell_index_zero_based": 4,
+      "original_sha256": "430e0c50f465efceeab57f08ec6131c2ad9f0ac938c478801ff3920b54ebc4e7",
+      "executed_sha256": "430e0c50f465efceeab57f08ec6131c2ad9f0ac938c478801ff3920b54ebc4e7",
+      "changes": []
+    },
+    {
+      "cell_index_zero_based": 5,
+      "original_sha256": "0f876ce2d4c2bf6e486667b0fc84b6867c4667487e3c71ff0330dbad56abf9a3",
+      "executed_sha256": "0f876ce2d4c2bf6e486667b0fc84b6867c4667487e3c71ff0330dbad56abf9a3",
+      "changes": []
+    },
+    {
+      "cell_index_zero_based": 6,
+      "original_sha256": "8918baec81ac794dd2f2e2e575b23ea919c7633f3037fe1984d569b23d653173",
+      "executed_sha256": "8918baec81ac794dd2f2e2e575b23ea919c7633f3037fe1984d569b23d653173",
+      "changes": []
+    },
+    {
+      "cell_index_zero_based": 7,
+      "original_sha256": "81fedde8a7bbf5d8275c140e66f24c6fc4481327d9b00661939a6714caac352b",
+      "executed_sha256": "81fedde8a7bbf5d8275c140e66f24c6fc4481327d9b00661939a6714caac352b",
+      "changes": []
+    },
+    {
+      "cell_index_zero_based": 9,
+      "original_sha256": "3cf6476f420d9049fdfbf46f4f413aa6e033e98c6214e04c698e4a32f2d9eae2",
+      "executed_sha256": "1f47bd137994dbd760f54c312ee301b1fd8db8ca36f5e7d1f46062b6aa8db574",
+      "changes": [
+        "Select CPU explicitly."
+      ]
+    },
+    {
+      "cell_index_zero_based": 10,
+      "original_sha256": "fc973588c64bde545612e913099cd225a0a03807fcd65937a7850b6fd87d6a62",
+      "executed_sha256": "b4a9ee89fa20aa6021bd0e0c2beef05b3f2b3b616c60d31cf8ce534cf60a8e94",
+      "changes": [
+        "Select CPU explicitly.",
+        "Record every pre-update loss without changing the objective or optimizer."
+      ]
+    },
+    {
+      "cell_index_zero_based": 12,
+      "original_sha256": "f787045bd11a4b8698bee18663b1cda2004e6431a2a962c4bb110b367852a11f",
+      "executed_sha256": "f787045bd11a4b8698bee18663b1cda2004e6431a2a962c4bb110b367852a11f",
+      "changes": []
+    }
+  ],
+  "omitted_cells": "Markdown and annotation plotting cell 3; no core computation omitted.",
+  "runtime": {
+    "python": "3.11.13",
+    "numpy": "1.26.4",
+    "scipy": "1.16.0",
+    "pandas": "2.3.1",
+    "scanpy": "1.11.5",
+    "anndata": "0.12.19",
+    "scikit-learn": "1.7.1",
+    "torch": "2.2.2",
+    "torch-geometric": "2.5.3"
+  },
+  "cpu_threads": 1,
+  "interop_threads": 1,
+  "seed": 0,
+  "epochs": 1000,
+  "elapsed_seconds": 146.71454384500248,
+  "first_loss": 0.42529410123825073,
+  "last_loss": 0.155556321144104,
+  "inside_count": 751,
+  "boundary_count": 838,
+  "boundary_info": {
+    "mode": "binary-mask-neighbor-boundary",
+    "level": 0.5,
+    "k_nn": 10,
+    "field_min": 0.0,
+    "field_max": 1.0,
+    "field_mean": 0.2226616428268165,
+    "field_std": 0.4042379398184899,
+    "n_spots": 3508,
+    "n_inside_tumor": 751,
+    "n_outside_stroma": 2757,
+    "n_boundary": 838,
+    "field_name": "p_tumor_gauss_spectral",
+    "d_signed_definition": "d_signed < 0: tumor side; d_signed = 0: inferred tumor-stroma interface; d_signed > 0: stroma/non-tumor side"
+  }
+}

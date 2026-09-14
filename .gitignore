@@ -1,0 +1,14 @@
+# Local environments and caches
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.ipython/
+.jupyter/
+.mplconfig/
+.cache/
+.DS_Store
+
+# Obtain the teaching input separately; results are generated when run.
+data/*.h5ad
+results/

@@ -1,0 +1,316 @@
+{
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 226,
+      "sha256": "a7b24729702c02dadec42551dc8a9a4a3389d556bd1b150ab5874f63035ee372"
+    },
+    {
+      "path": "01_METMAP_library.html",
+      "bytes": 1536589,
+      "sha256": "126ff470c249a22c1fd7238b1be5270e29df9ded62ef2cd8fe4ae1e5bb562050"
+    },
+    {
+      "path": "01_METMAP_library.ipynb",
+      "bytes": 1201537,
+      "sha256": "925854dcef9a728dc47b3065bdd04989b9f3ef40718b62b06eccc8a2c51bd2e5"
+    },
+    {
+      "path": "02_SIGMA_library.html",
+      "bytes": 4146527,
+      "sha256": "a0ddf3bbc4dae93c375cf519cf36d991c0f715f6583f51c9eb2f8299bb20d91c"
+    },
+    {
+      "path": "02_SIGMA_library.ipynb",
+      "bytes": 3768521,
+      "sha256": "5804f812ae0ca97a72f71f7ed42e88c03a5527580fb402315d13b3788c06aac1"
+    },
+    {
+      "path": "03_METMAP_from_scratch.html",
+      "bytes": 1544764,
+      "sha256": "1370d72ea08856c68813bf07e60840b3a004c462bf4f2fb150a82e422ea8365a"
+    },
+    {
+      "path": "03_METMAP_from_scratch.ipynb",
+      "bytes": 1204631,
+      "sha256": "2db3bac8fd90037752120c7c6e9774a34b15acc4e687691ac51a3bfb5b4cc0f7"
+    },
+    {
+      "path": "04_SIGMA_from_scratch.html",
+      "bytes": 4255500,
+      "sha256": "a0a676f3d0311316bb6531a0e9ea2464b1d90f14047214d5df5a0b9da736c4b5"
+    },
+    {
+      "path": "04_SIGMA_from_scratch.ipynb",
+      "bytes": 3800833,
+      "sha256": "7969c34cee0bb929970b1172dbdbc32ec424fbc1860fd27afd2f274ce6fa0109"
+    },
+    {
+      "path": "DATA.md",
+      "bytes": 2062,
+      "sha256": "1f3070904a9ad1b5693eb4b6ee8edfdc9d88e997617b098389370ed63335a1b6"
+    },
+    {
+      "path": "ORIGINAL_PROTOCOL.md",
+      "bytes": 4089,
+      "sha256": "704a39d9da7a341e869d8b568f636f977c575663ab2faff40f89139d7b36593e"
+    },
+    {
+      "path": "README.md",
+      "bytes": 7141,
+      "sha256": "38667d5f1301b25e6dc25fcf5fe7f8bb59b360a492ac0cfd6450f7e1b716735f"
+    },
+    {
+      "path": "SLIDE_NOTES.md",
+      "bytes": 1245,
+      "sha256": "8833d2cb48b86ea565a81de3d859221e281f6931381d5d845a23195ac617f329"
+    },
+    {
+      "path": "check_setup.py",
+      "bytes": 3041,
+      "sha256": "a854fcc9d275646c532b4426c27399a2ec049299dc77e0b9beae58c4c64b9950"
+    },
+    {
+      "path": "data/README.md",
+      "bytes": 110,
+      "sha256": "6e40cfb092832034225ee38fcd0d7dee950ae3d7e606e4c363da481fd3de991a"
+    },
+    {
+      "path": "execute_notebook.py",
+      "bytes": 2706,
+      "sha256": "3012d99f0908649a9681575c9d2bac8d47a3100f6e466ec06aeef12e3958bff4"
+    },
+    {
+      "path": "reference/implementation_parity.csv",
+      "bytes": 1108,
+      "sha256": "b036a7d3a90228d41c80d718a761723cb7642d56398199384d8e25cebb3eaa30"
+    },
+    {
+      "path": "reference/original_core_execution.json",
+      "bytes": 3883,
+      "sha256": "ca78208f7bdbf114b065823be3629805fe5185563c1c2b1eb76a45f3fd945aba"
+    },
+    {
+      "path": "reference/original_protocol_comparison.csv",
+      "bytes": 2804,
+      "sha256": "41a14f2f1ce0348a482fc44a0d22878548d7f51acb1d309a714e8f9559751692"
+    },
+    {
+      "path": "reference/sigma_from_scratch_summary.json",
+      "bytes": 2687,
+      "sha256": "12091206fd44e90bd6c14a83eaff791125562b8860ddfc12a58e738168ffedf1"
+    },
+    {
+      "path": "reference/sigma_library_summary.json",
+      "bytes": 2691,
+      "sha256": "ddb73432d2fad394b3a57a78385961b049a740afa004828c22ea79bf4550311c"
+    },
+    {
+      "path": "reference/verification.json",
+      "bytes": 16218,
+      "sha256": "ae206b6f4c16831722783ceeaaa23666fa9f0bfe0816224f2a4f96adea675f0a"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 346,
+      "sha256": "56032e98b8afa0753c1b091b64afa7ecac4363bcc9390ad8ef6df10f477f430e"
+    },
+    {
+      "path": "slides/METMAP_SIGMA_BC515_Original_Workflow_Course.pptx",
+      "bytes": 4941902,
+      "sha256": "4eef6a6f79323c21c52dcdfcd1ca52bf27e9fda11e433806c015f657b6c9fa03"
+    },
+    {
+      "path": "vendor/MET-MAP/LICENSE",
+      "bytes": 1500,
+      "sha256": "de70b683c6c293b2b39943f030befe84062a4e1eba79f3cad6c435ded39bf447"
+    },
+    {
+      "path": "vendor/MET-MAP/src/multi_gaston/__init__.py",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "vendor/MET-MAP/src/multi_gaston/__main__.py",
+      "bytes": 5269,
+      "sha256": "44fdbd7d75d485ca1d483505a10dc3415fe871211d9d516fba33d045bd55c705"
+    },
+    {
+      "path": "vendor/MET-MAP/src/multi_gaston/data_processing.py",
+      "bytes": 3155,
+      "sha256": "19e9ee8142d8c496dfbd8f0f6fc84758218b30778fa8d27417cad0066e0fb378"
+    },
+    {
+      "path": "vendor/MET-MAP/src/multi_gaston/multi_gaston.py",
+      "bytes": 10929,
+      "sha256": "fd9253a3265dd4fdc4954c4cb66179f2d3c5fb181c39d68d9c3b1b467abe6f29"
+    },
+    {
+      "path": "vendor/MET-MAP/src/multi_gaston/pos_encoding.py",
+      "bytes": 612,
+      "sha256": "4576d93a59a81259fdbf15930d02b76ca75a9b1d24382e365e18144c8b653cc6"
+    },
+    {
+      "path": "vendor/MET-MAP/src/multi_gaston/process_NN_output.py",
+      "bytes": 12659,
+      "sha256": "17a9c1e93c6c02dc6bc4511946df086f3d4a432f92c9fe4d901f0af7d70f72ef"
+    },
+    {
+      "path": "vendor/SIGMA/LICENSE",
+      "bytes": 1067,
+      "sha256": "f88fb1f177bc297474de2f4e224ac70a7f7b13f332945f6fd0cfadb7c26b550b"
+    },
+    {
+      "path": "vendor/SIGMA/ORIGINAL_COMPATIBILITY.md",
+      "bytes": 3843,
+      "sha256": "d51a0c2105c1f2901aedf25ffd565de81ac5c477b66915f36dfedfae5d5ff254"
+    },
+    {
+      "path": "vendor/SIGMA/src/sigma_spatial/__init__.py",
+      "bytes": 6065,
+      "sha256": "ea5209445cc49bcc4b0b43b90aa3892fe7b7fa9e7a8c2608d27c1ba4459cea39"
+    },
+    {
+      "path": "vendor/SIGMA/src/sigma_spatial/anchors.py",
+      "bytes": 7929,
+      "sha256": "805afb63040b7389b29ba65c1537ebcaab14fd0e3ea901ac88b979f402b7e2ff"
+    },
+    {
+      "path": "vendor/SIGMA/src/sigma_spatial/api.py",
+      "bytes": 23955,
+      "sha256": "8a64ec9ae15f37f280d865f463f692a8722898cf040817dcde6094eafb493338"
+    },
+    {
+      "path": "vendor/SIGMA/src/sigma_spatial/assessment.py",
+      "bytes": 5340,
+      "sha256": "5c3d23cfd51bcc6f799c85aa8906f83f481e0ee01b9e275611c9c198d21d4f39"
+    },
+    {
+      "path": "vendor/SIGMA/src/sigma_spatial/boundary.py",
+      "bytes": 4593,
+      "sha256": "52ef6ed873084e9c6de0071932180768a53b1155a4890ce797a5fdb412b19943"
+    },
+    {
+      "path": "vendor/SIGMA/src/sigma_spatial/cli.py",
+      "bytes": 3293,
+      "sha256": "d1dcb73e8bd90d2bba5da10a8f7a680843823e60d0f23f13db84c8c38c2c4a34"
+    },
+    {
+      "path": "vendor/SIGMA/src/sigma_spatial/config.py",
+      "bytes": 3155,
+      "sha256": "94f43bca0ed7cff81743ee01e50d0069babb457ea22e96231768748d5be1e6ad"
+    },
+    {
+      "path": "vendor/SIGMA/src/sigma_spatial/graph.py",
+      "bytes": 3086,
+      "sha256": "66db69a06161a92243a8550ddc07d518100bb26798bdee12fcddfb7d39b15825"
+    },
+    {
+      "path": "vendor/SIGMA/src/sigma_spatial/input_assessment.py",
+      "bytes": 3437,
+      "sha256": "f2e65c9848a48932f9fd41017588f8f26f551c0f32cd01132cceec0f43537487"
+    },
+    {
+      "path": "vendor/SIGMA/src/sigma_spatial/interface_metrics.py",
+      "bytes": 3161,
+      "sha256": "401bcba38939b0476890bb2303e547b78fdd69ca625ee60901bac300e33526dd"
+    },
+    {
+      "path": "vendor/SIGMA/src/sigma_spatial/interface_selection.py",
+      "bytes": 9757,
+      "sha256": "226fce7dd002334024c9bd07b2b9c70019b90c9c0378ef7fb46e175f07c32c19"
+    },
+    {
+      "path": "vendor/SIGMA/src/sigma_spatial/io.py",
+      "bytes": 2348,
+      "sha256": "d943e64203a1ad347e0f0cb7cc1c5a7748f2e392afca185af0efc1530da791f6"
+    },
+    {
+      "path": "vendor/SIGMA/src/sigma_spatial/lambda_profile.py",
+      "bytes": 5863,
+      "sha256": "36280791e711b9b40ddaaee9364aa727a812203444c95903746ab74278679310"
+    },
+    {
+      "path": "vendor/SIGMA/src/sigma_spatial/manuscript.py",
+      "bytes": 3136,
+      "sha256": "3620fb89db57586486c0433eecc07fa717214fbabc2d60a9987bfca88a30b62d"
+    },
+    {
+      "path": "vendor/SIGMA/src/sigma_spatial/metrics.py",
+      "bytes": 780,
+      "sha256": "2b6eee354ca3ef69a68d436efccbb90920881b8f76348f480b1739c175327d3e"
+    },
+    {
+      "path": "vendor/SIGMA/src/sigma_spatial/model.py",
+      "bytes": 2455,
+      "sha256": "66ba4c0c1fbbef486e9440b08a8f926c6ee773899d7bf84516b1eece1199cd97"
+    },
+    {
+      "path": "vendor/SIGMA/src/sigma_spatial/pipeline.py",
+      "bytes": 5795,
+      "sha256": "d6629df8fc0473a50d39158ed2d8a946d3c46f63fa6f5e615ad9a2052ad7eb15"
+    },
+    {
+      "path": "vendor/SIGMA/src/sigma_spatial/plotting.py",
+      "bytes": 7000,
+      "sha256": "6ffa8c985484df5a747af418946ba7d116f9f7d2a862e15f5302ad694c6c44c5"
+    },
+    {
+      "path": "vendor/SIGMA/src/sigma_spatial/preprocessing.py",
+      "bytes": 4564,
+      "sha256": "bf8c3c2faacdc32a7b5895e9bbd99ac3319f9b79bc190fa6dc161a11b20b7f96"
+    },
+    {
+      "path": "vendor/SIGMA/src/sigma_spatial/programs.py",
+      "bytes": 11355,
+      "sha256": "fae0a7560955ea5b793c5ba39f463287af09548bd611cac9a05988fb526256af"
+    },
+    {
+      "path": "vendor/SIGMA/src/sigma_spatial/reference.py",
+      "bytes": 4672,
+      "sha256": "71941fa47d8528acce07e7dc8df9b11360164b34502ade0753774a1b18a534c3"
+    },
+    {
+      "path": "vendor/SIGMA/src/sigma_spatial/reporting.py",
+      "bytes": 39238,
+      "sha256": "149d075ef1b119d5885995e8d03bbbd0368d8937c38fb35023f9bc0315718dc3"
+    },
+    {
+      "path": "vendor/SIGMA/src/sigma_spatial/selection.py",
+      "bytes": 7390,
+      "sha256": "89ba124c873acc610f21b6549a19a904bcd326448b953a29ab69c05f163fe8a1"
+    },
+    {
+      "path": "vendor/SIGMA/src/sigma_spatial/simulation.py",
+      "bytes": 5855,
+      "sha256": "09857bc875a6c7dccd184a3a7c78081b93b5484da9163e30e366f53e882daf94"
+    },
+    {
+      "path": "vendor/SIGMA/src/sigma_spatial/st_validation.py",
+      "bytes": 8165,
+      "sha256": "7ba2ebf49eaa6035ac6b66fc95e590afbe475d7c2ba232cb6cb651131df6545a"
+    },
+    {
+      "path": "vendor/SIGMA/src/sigma_spatial/utils.py",
+      "bytes": 990,
+      "sha256": "f9f3c2880e0209d80d291aa98d16fca23beeb2c2f77ee97a77243ae90d93ec7c"
+    },
+    {
+      "path": "vendor/SIGMA/src/sigma_spatial/validation.py",
+      "bytes": 3457,
+      "sha256": "4b243d8a0d4ad2fe161fa5e3fa4ca233cbd7fdb4d25ad872d21c8835f35e328f"
+    },
+    {
+      "path": "vendor/SIGMA/src/sigma_spatial/weak_anchor.py",
+      "bytes": 11676,
+      "sha256": "a12cd4cf5ca3420a6f80024a96758f568a4674fc501b721f87e0f744434fdbab"
+    },
+    {
+      "path": "vendor/SIGMA/src/sigma_spatial/workflows.py",
+      "bytes": 3390,
+      "sha256": "ff396b756c9b1377e240c8d52ad0316fdbc9ec0407223079afb79b899cda382b"
+    }
+  ],
+  "input_data_included": false,
+  "total_bytes": 26692096
+}

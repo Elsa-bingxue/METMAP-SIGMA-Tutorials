@@ -1,0 +1,694 @@
+{
+  "status": "passed",
+  "n_notebooks": 4,
+  "input_sha256": "1f96d6f1aaa36c117ccd7fb94b172a1c1435585d54279e8cffb93df0299c7204",
+  "notebooks": [
+    {
+      "file": "01_METMAP_library.ipynb",
+      "code_cells": 10,
+      "embedded_png": 5,
+      "errors": 0,
+      "all_code_executed": true,
+      "execution_scope": "retained original MET-MAP run; portable setup paths"
+    },
+    {
+      "file": "02_SIGMA_library.ipynb",
+      "code_cells": 15,
+      "embedded_png": 5,
+      "errors": 0,
+      "all_code_executed": true,
+      "execution_scope": "fresh original-protocol SIGMA execution"
+    },
+    {
+      "file": "03_METMAP_from_scratch.ipynb",
+      "code_cells": 9,
+      "embedded_png": 5,
+      "errors": 0,
+      "all_code_executed": true,
+      "execution_scope": "retained original MET-MAP run; portable setup paths"
+    },
+    {
+      "file": "04_SIGMA_from_scratch.ipynb",
+      "code_cells": 20,
+      "embedded_png": 5,
+      "errors": 0,
+      "all_code_executed": true,
+      "execution_scope": "fresh original-protocol SIGMA execution"
+    }
+  ],
+  "library_scratch_checks": [
+    {
+      "method": "MET-MAP",
+      "field": "obs_names",
+      "max_absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "method": "MET-MAP",
+      "field": "coords",
+      "max_absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "method": "MET-MAP",
+      "field": "mz",
+      "max_absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "method": "MET-MAP",
+      "field": "depth",
+      "max_absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "method": "MET-MAP",
+      "field": "weights",
+      "max_absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "method": "MET-MAP",
+      "field": "loss",
+      "max_absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "method": "MET-MAP",
+      "field": "r2",
+      "max_absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "method": "MET-MAP",
+      "field": "reconstruction",
+      "max_absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "method": "MET-MAP",
+      "field": "ranking.feature_index",
+      "max_absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "method": "MET-MAP",
+      "field": "ranking.mz",
+      "max_absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "method": "MET-MAP",
+      "field": "ranking.reconstruction_r2",
+      "max_absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "method": "MET-MAP",
+      "field": "ranking.strongest_gradient",
+      "max_absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "method": "MET-MAP",
+      "field": "ranking.scaled_loading_1",
+      "max_absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "method": "MET-MAP",
+      "field": "ranking.scaled_loading_2",
+      "max_absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "method": "MET-MAP",
+      "field": "ranking.scaled_loading_3",
+      "max_absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "method": "SIGMA",
+      "field": "xy",
+      "max_absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "method": "SIGMA",
+      "field": "embedding",
+      "max_absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "method": "SIGMA",
+      "field": "gaussian",
+      "max_absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "method": "SIGMA",
+      "field": "residual",
+      "max_absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "method": "SIGMA",
+      "field": "corrected",
+      "max_absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "method": "SIGMA",
+      "field": "gaussian_anchor",
+      "max_absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "method": "SIGMA",
+      "field": "probability",
+      "max_absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "method": "SIGMA",
+      "field": "p_raw",
+      "max_absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "method": "SIGMA",
+      "field": "inside",
+      "max_absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "method": "SIGMA",
+      "field": "boundary",
+      "max_absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "method": "SIGMA",
+      "field": "d_signed",
+      "max_absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "method": "SIGMA",
+      "field": "loss_history",
+      "max_absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "method": "SIGMA",
+      "field": "profile_matrix",
+      "max_absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "method": "SIGMA",
+      "field": "program_feature_index",
+      "max_absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "method": "SIGMA",
+      "field": "program_labels",
+      "max_absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "method": "SIGMA",
+      "field": "module_scores",
+      "max_absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "method": "SIGMA",
+      "field": "ranking_lambda",
+      "max_absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "method": "SIGMA",
+      "field": "ranking_r2_logI",
+      "max_absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "method": "SIGMA",
+      "field": "ranking_slope",
+      "max_absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "method": "SIGMA",
+      "field": "ranking_intercept",
+      "max_absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "method": "SIGMA",
+      "field": "ranking_boundary_enrichment_ratio",
+      "max_absolute_difference": 0.0,
+      "passed": true
+    }
+  ],
+  "sigma_original_code_checks": [
+    {
+      "scope": "library_core",
+      "output": "xy",
+      "exact": true,
+      "within_tolerance": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "scope": "library_core",
+      "output": "loss_history",
+      "exact": true,
+      "within_tolerance": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "scope": "library_core",
+      "output": "p_raw",
+      "exact": true,
+      "within_tolerance": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "scope": "library_core",
+      "output": "probability",
+      "exact": true,
+      "within_tolerance": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "scope": "library_core",
+      "output": "inside",
+      "exact": true,
+      "within_tolerance": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "scope": "library_core",
+      "output": "boundary",
+      "exact": true,
+      "within_tolerance": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "scope": "library_core",
+      "output": "d_signed",
+      "exact": true,
+      "within_tolerance": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "scope": "library_core",
+      "output": "gaussian_anchor",
+      "exact": true,
+      "within_tolerance": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "scope": "library_core",
+      "output": "embedding",
+      "exact": true,
+      "within_tolerance": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "scope": "library_core",
+      "output": "gaussian",
+      "exact": true,
+      "within_tolerance": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "scope": "library_core",
+      "output": "residual",
+      "exact": true,
+      "within_tolerance": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "scope": "library_core",
+      "output": "corrected",
+      "exact": true,
+      "within_tolerance": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "scope": "library_programs",
+      "output": "profile_matrix",
+      "exact": true,
+      "within_tolerance": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "scope": "library_programs",
+      "output": "program_feature_index",
+      "exact": true,
+      "within_tolerance": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "scope": "library_programs",
+      "output": "program_labels",
+      "exact": true,
+      "within_tolerance": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "scope": "library_programs",
+      "output": "module_scores",
+      "exact": true,
+      "within_tolerance": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "scope": "library_ranking",
+      "output": "j",
+      "exact": true,
+      "within_tolerance": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "scope": "library_ranking",
+      "output": "lambda",
+      "exact": true,
+      "within_tolerance": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "scope": "library_ranking",
+      "output": "r2_logI",
+      "exact": true,
+      "within_tolerance": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "scope": "library_ranking",
+      "output": "slope",
+      "exact": true,
+      "within_tolerance": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "scope": "library_ranking",
+      "output": "intercept",
+      "exact": true,
+      "within_tolerance": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "scope": "library_ranking",
+      "output": "n_valid",
+      "exact": true,
+      "within_tolerance": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "scope": "library_ranking",
+      "output": "boundary_enrichment_ratio",
+      "exact": true,
+      "within_tolerance": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "scope": "library_ranking",
+      "output": "near_interface_mean",
+      "exact": true,
+      "within_tolerance": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "scope": "library_ranking",
+      "output": "far_interface_mean",
+      "exact": true,
+      "within_tolerance": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "scope": "library_representatives",
+      "output": "cluster",
+      "exact": true,
+      "within_tolerance": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "scope": "library_representatives",
+      "output": "j",
+      "exact": true,
+      "within_tolerance": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "scope": "library_representatives",
+      "output": "lambda",
+      "exact": true,
+      "within_tolerance": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "scope": "library_representatives",
+      "output": "r2_logI",
+      "exact": true,
+      "within_tolerance": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "scope": "library_representatives",
+      "output": "boundary_enrichment_ratio",
+      "exact": true,
+      "within_tolerance": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "scope": "library_representatives",
+      "output": "anisotropy_cv8",
+      "exact": true,
+      "within_tolerance": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "scope": "from_scratch_core",
+      "output": "xy",
+      "exact": true,
+      "within_tolerance": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "scope": "from_scratch_core",
+      "output": "loss_history",
+      "exact": true,
+      "within_tolerance": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "scope": "from_scratch_core",
+      "output": "p_raw",
+      "exact": true,
+      "within_tolerance": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "scope": "from_scratch_core",
+      "output": "probability",
+      "exact": true,
+      "within_tolerance": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "scope": "from_scratch_core",
+      "output": "inside",
+      "exact": true,
+      "within_tolerance": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "scope": "from_scratch_core",
+      "output": "boundary",
+      "exact": true,
+      "within_tolerance": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "scope": "from_scratch_core",
+      "output": "d_signed",
+      "exact": true,
+      "within_tolerance": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "scope": "from_scratch_core",
+      "output": "gaussian_anchor",
+      "exact": true,
+      "within_tolerance": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "scope": "from_scratch_core",
+      "output": "embedding",
+      "exact": true,
+      "within_tolerance": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "scope": "from_scratch_core",
+      "output": "gaussian",
+      "exact": true,
+      "within_tolerance": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "scope": "from_scratch_core",
+      "output": "residual",
+      "exact": true,
+      "within_tolerance": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "scope": "from_scratch_core",
+      "output": "corrected",
+      "exact": true,
+      "within_tolerance": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "scope": "from_scratch_programs",
+      "output": "profile_matrix",
+      "exact": true,
+      "within_tolerance": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "scope": "from_scratch_programs",
+      "output": "program_feature_index",
+      "exact": true,
+      "within_tolerance": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "scope": "from_scratch_programs",
+      "output": "program_labels",
+      "exact": true,
+      "within_tolerance": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "scope": "from_scratch_programs",
+      "output": "module_scores",
+      "exact": true,
+      "within_tolerance": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "scope": "from_scratch_ranking",
+      "output": "j",
+      "exact": true,
+      "within_tolerance": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "scope": "from_scratch_ranking",
+      "output": "lambda",
+      "exact": true,
+      "within_tolerance": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "scope": "from_scratch_ranking",
+      "output": "r2_logI",
+      "exact": true,
+      "within_tolerance": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "scope": "from_scratch_ranking",
+      "output": "slope",
+      "exact": true,
+      "within_tolerance": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "scope": "from_scratch_ranking",
+      "output": "intercept",
+      "exact": true,
+      "within_tolerance": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "scope": "from_scratch_ranking",
+      "output": "n_valid",
+      "exact": true,
+      "within_tolerance": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "scope": "from_scratch_ranking",
+      "output": "boundary_enrichment_ratio",
+      "exact": true,
+      "within_tolerance": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "scope": "from_scratch_ranking",
+      "output": "near_interface_mean",
+      "exact": true,
+      "within_tolerance": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "scope": "from_scratch_ranking",
+      "output": "far_interface_mean",
+      "exact": true,
+      "within_tolerance": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "scope": "from_scratch_representatives",
+      "output": "cluster",
+      "exact": true,
+      "within_tolerance": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "scope": "from_scratch_representatives",
+      "output": "j",
+      "exact": true,
+      "within_tolerance": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "scope": "from_scratch_representatives",
+      "output": "lambda",
+      "exact": true,
+      "within_tolerance": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "scope": "from_scratch_representatives",
+      "output": "r2_logI",
+      "exact": true,
+      "within_tolerance": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "scope": "from_scratch_representatives",
+      "output": "boundary_enrichment_ratio",
+      "exact": true,
+      "within_tolerance": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "scope": "from_scratch_representatives",
+      "output": "anisotropy_cv8",
+      "exact": true,
+      "within_tolerance": true,
+      "max_abs_difference": 0.0
+    }
+  ],
+  "historical_scope": "Original-code comparisons use fresh executions in the same Python3.11 CPU environment. Historical saved arrays are not asserted equal."
+}

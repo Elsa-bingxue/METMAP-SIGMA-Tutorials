@@ -1,0 +1,88 @@
+{
+  "implementation": "from_scratch",
+  "protocol": "BC515-original-2026-09",
+  "input_sha256": "1f96d6f1aaa36c117ccd7fb94b172a1c1435585d54279e8cffb93df0299c7204",
+  "spots": 3508,
+  "msi_features": 2086,
+  "core": {
+    "n_components": 64,
+    "k": 15,
+    "z_dim": 32,
+    "epochs": 1000,
+    "lr": 0.001,
+    "lambda_sup": 0.05,
+    "beta_rna": 0.05,
+    "boundary_k": 10
+  },
+  "seed": 0,
+  "device": "cpu",
+  "threads": 1,
+  "initial_loss": 0.42529410123825073,
+  "final_loss": 0.155556321144104,
+  "inside_spots": 751,
+  "boundary_spots": 838,
+  "retained_lambda_features": 312,
+  "clustered_features": 300,
+  "program_sizes": {
+    "0": 30,
+    "1": 97,
+    "2": 161,
+    "3": 12
+  },
+  "representatives": [
+    {
+      "cluster": 0,
+      "mz": "817.5345203639481",
+      "j": 320,
+      "lambda": 226.59843771732696,
+      "r2_logI": 0.2702819957159168,
+      "boundary_enrichment_ratio": 2.4117715072871344
+    },
+    {
+      "cluster": 1,
+      "mz": "818.540767079965",
+      "j": 134,
+      "lambda": 195.74095926843242,
+      "r2_logI": 0.26926518921667,
+      "boundary_enrichment_ratio": 2.5695548579928005
+    },
+    {
+      "cluster": 2,
+      "mz": "887.5614622133272",
+      "j": 75,
+      "lambda": 173.71795852994265,
+      "r2_logI": 0.2687162248254661,
+      "boundary_enrichment_ratio": 3.6577728575338124
+    },
+    {
+      "cluster": 3,
+      "mz": "328.05783972026",
+      "j": 438,
+      "lambda": 309.7122229113909,
+      "r2_logI": 0.21627182109706589,
+      "boundary_enrichment_ratio": 2.647178631538297
+    }
+  ],
+  "training_seconds": 140.1795918429998,
+  "versions": {
+    "python": "3.11.13",
+    "numpy": "1.26.4",
+    "scipy": "1.16.0",
+    "scikit-learn": "1.7.1",
+    "torch": "2.2.2",
+    "torch-geometric": "2.5.3",
+    "anndata": "0.12.19"
+  },
+  "library_compatibility_version": "0.3.1+bc515.original",
+  "vendor_source_sha256": {
+    "__init__.py": "ea5209445cc49bcc4b0b43b90aa3892fe7b7fa9e7a8c2608d27c1ba4459cea39",
+    "model.py": "66ba4c0c1fbbef486e9440b08a8f926c6ee773899d7bf84516b1eece1199cd97",
+    "graph.py": "66db69a06161a92243a8550ddc07d518100bb26798bdee12fcddfb7d39b15825",
+    "pipeline.py": "d6629df8fc0473a50d39158ed2d8a946d3c46f63fa6f5e615ad9a2052ad7eb15",
+    "preprocessing.py": "bf8c3c2faacdc32a7b5895e9bbd99ac3319f9b79bc190fa6dc161a11b20b7f96",
+    "boundary.py": "52ef6ed873084e9c6de0071932180768a53b1155a4890ce797a5fdb412b19943",
+    "lambda_profile.py": "36280791e711b9b40ddaaee9364aa727a812203444c95903746ab74278679310",
+    "programs.py": "fae0a7560955ea5b793c5ba39f463287af09548bd611cac9a05988fb526256af"
+  },
+  "reference_scope": "Original BC-515 protocol rerun; saved historical outputs are reported separately."
+}
